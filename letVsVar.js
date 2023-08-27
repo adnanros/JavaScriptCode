@@ -8,9 +8,10 @@ function test(){
         console.log(b);
 
     }
-    //let a = "new value"; //forbidden
-    var b= "NewBfuncScope"; // It is allowed to get a New Value
+    console.log(b);
     console.log(a);
+    //let a = 2; //forbidden ! Throw an Error
+    var b= 2; // It is allowed to get a New Type and Value (New Variable same Name)
     console.log(b);
 }
 test();
