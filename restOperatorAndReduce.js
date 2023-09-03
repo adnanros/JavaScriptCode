@@ -4,7 +4,7 @@
 //Makes an Array Of A Sequence of Elements 
 
 const sum = function(x,y,z){
-    const args = [x, y, z];
+    const args = [x, y, z]; // Make an Array manually
     return args.reduce((a,b)=> a+b, 0);
 }
 
@@ -12,7 +12,7 @@ console.log(sum(1,2,3));
 
 
 
-const sumWithRest = function(...args){
+const sumWithRest = function(...args){ // Make an Array by Rest Operator
     //const args = [x, y, z];
     return args.reduce((a,b)=> a+b, 0);
 }

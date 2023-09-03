@@ -4,6 +4,8 @@ const stats ={
     avg: 42,
     min: 18.4
 }
+
+
 const half = function ({max, min}){
     return (max+min)/2;
 }

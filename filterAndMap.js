@@ -3,7 +3,7 @@
 
 
 // Map Create A New Array Based On EAch Element of Base Array
-// The Callback Function get each Element and ap them to a New Value
+// The Callback Function get each Element and map them to a New Value
 
 const realNumbers = [2.2, 3, -2.3, 1.5, 7.8, 9.6];
 

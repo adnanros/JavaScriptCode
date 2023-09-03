@@ -2,6 +2,9 @@ function test(){
     let a = "AfuncScope";
     var b= "BfuncScope";
     if(true){
+        //a = "aaaaaaaa"; // Error - Cannot access 'a' before initialization
+        b = "bbbbbbbb";
+        console.log(b);
         let a = "Ablockscope";
         var b = "BblockScope";
         console.log(a);
