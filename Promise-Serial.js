@@ -14,7 +14,7 @@ let secondPromise = (inputFromPrevPromise) => {
 
 firstPromise.then((result) => {
     console.log(result, 'After 2000 miliseconds');
-    return secondPromise(result);
+    return secondPromise(result); 
 }).then((result) => {
     console.log(result, 'After 3000 miliseconds');
 });
