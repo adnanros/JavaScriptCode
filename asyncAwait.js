@@ -1,3 +1,7 @@
+/**
+ * You need to provide 'async' in function declaration when you have 'await' within its body
+ * You need to provide 'await' in calling an asynchronous function in assignment
+ */
 async function fetchData() {
     try {
         const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');

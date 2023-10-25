@@ -11,8 +11,8 @@ const sum = function(x,y,z){
 console.log(sum(1,2,3));
 
 
-
-const sumWithRest = function(...args){ // Make an Array by Rest Operator
+// Make an Array by Rest Operator without concern about the number of inputs
+const sumWithRest = function(...args){ 
     //const args = [x, y, z];
     return args.reduce((a,b)=> a+b, 0);
 }

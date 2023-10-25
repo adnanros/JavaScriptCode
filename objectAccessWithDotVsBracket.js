@@ -13,8 +13,9 @@ const obj = {
 console.log(obj.firstName,'', obj['lastName'], 'is', obj['age'])
 
 // Both are correct
-console.log(obj[1]); // overwrited property value
+console.log(obj[1]); // overwrited property value - at run time, the last one is overwrited the previous ones
 console.log(obj['1']); // overwrited property value
+
 
 // Not error - Not Correct Access Form
 const personName = 'firstName';
